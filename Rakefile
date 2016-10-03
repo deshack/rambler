@@ -15,12 +15,12 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "rambler"
-  gem.homepage = "http://github.com/mcasimir/rambler"
+  gem.homepage = "http://github.com/deshack/rambler"
   gem.license = "MIT"
   gem.summary = %Q{"Dynamic routing for UnRESTful Rails controllers"}
   gem.description = %Q{Rambler provides a Sinatra-like DSL that makes easy to write and manage non-RESTful controllers.}
-  gem.email = "maurizio.cas@gmail.com"
-  gem.authors = ["mcasimir"]
+  gem.email = "mattia@squeezyweb.com"
+  gem.authors = ["mcasimir", "deshack"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
